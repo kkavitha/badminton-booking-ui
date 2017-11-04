@@ -16,6 +16,10 @@ var config = {
                 query: {
                     presets: ['es2015', 'react'] // use es2015 and react
                 }
+            },
+            {
+                test: /(\.css|\.scss|\.sass)$/,
+                loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
             }
         ]
     }
