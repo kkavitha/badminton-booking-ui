@@ -1,0 +1,27 @@
+.wrapper {
+    clear: both;
+    width:50%;
+    margin: auto;
+}
+
+.dropdowns {
+    padding: 10px;
+}
+
+.search_button{
+    float: right;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin:10px;
+    border-radius: 5px;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+}
