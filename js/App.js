@@ -43,7 +43,7 @@ class App extends React.Component {
     componentWillMount() {
         let options= [];
         $.ajax({
-            url: "http://localhost:5000/locations",
+            url: "http://127.0.0.1:5000/locations",
             type: "GET",
             contentType: "application/json",
             success: function (data) {
@@ -73,7 +73,7 @@ class App extends React.Component {
         console.log(slots);
         console.log(area);
         $.ajax({
-            url: "http://localhost:5000/get-availability",
+            url: "http://127.0.0.1:5000/get-availability",
             type: "POST",
             contentType: "application/json",
             data:JSON.stringify({"slots":slots, "area": area}),
